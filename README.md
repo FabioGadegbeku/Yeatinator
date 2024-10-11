@@ -1,5 +1,5 @@
 # Yeatinator: A Comparative Analysis of LSTM and GPT-2 for Rap Lyric Generation
-Generates lyrics of American rapper Yeat (or any rapper) from a base prompt more information in the Notebook
+Generates lyrics of American rapper Yeat (or any artist) from a base prompt more information in the Notebook
 ![image](/yeat.jpg)
 
 The **Yeatinator** project explores the effectiveness of different NLP architectures—specifically an LSTM-based model and a fine-tuned GPT-2 model—in generating lyrics inspired by the rapper *Yeat*. This project highlights the creative potential of AI for text generation tasks and provides insights into the differences between older, more traditional sequence models (LSTM) and cutting-edge transformer models like GPT-2. Also we can see the difficulties encountered when training a model from scratch.
