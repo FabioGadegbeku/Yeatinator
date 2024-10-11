@@ -2,12 +2,12 @@
 Generates lyrics of American rapper Yeat (or any rapper) from a base prompt more information in the Notebook
 ![image](/yeat.jpg)
 
-The **Yeatinator** project explores the effectiveness of different NLP architectures—specifically an LSTM-based model and a fine-tuned GPT-2 model—in generating lyrics inspired by the rapper *Yeat*. This project highlights the creative potential of AI for text generation tasks and provides insights into the differences between older, more traditional sequence models (LSTM) and cutting-edge transformer models like GPT-2. Also try to see the difficulties encountered when training a model from scratch.
+The **Yeatinator** project explores the effectiveness of different NLP architectures—specifically an LSTM-based model and a fine-tuned GPT-2 model—in generating lyrics inspired by the rapper *Yeat*. This project highlights the creative potential of AI for text generation tasks and provides insights into the differences between older, more traditional sequence models (LSTM) and cutting-edge transformer models like GPT-2. Also we can see the difficulties encountered when training a model from scratch.
 
 ## Project Overview
 
-- **LSTM (Long Short-Term Memory)**: A recurrent neural network (RNN) architecture capable of handling long-range dependencies in sequences, frequently used in NLP tasks.
-- **GPT-2 (Generative Pre-trained Transformer 2)**: A transformer-based model that excels at generating human-like text by leveraging a massive amount of pre-training data and a more sophisticated attention mechanism.
+- **LSTM (Long Short-Term Memory)**: Recurrent neural network (RNN) architecture capable of handling long-range dependencies in sequences, frequently used in NLP tasks.
+- **GPT-2 (Generative Pre-trained Transformer)**: Transformer-based model that excels at natural language processing and text generation.
 
 The project consisted of two major stages:
 
@@ -39,7 +39,7 @@ The LSTM was trained using:
 
 A pre-trained GPT-2 model was fine-tuned on the *Yeat* lyrics corpus, making use of transfer learning to adapt the general language capabilities of GPT-2 to the specific task of rap lyric generation. Only the last few transformer layers were updated during training to prevent overfitting to the relatively small dataset.
 
-- **Base Model**: GPT-2 (small version, 117M parameters)
+- **Base Model**: GPT-2
 - **Training Epochs**: 5 epochs
 - **Training Time**: ~1 hour on a GPU
 
@@ -88,4 +88,4 @@ I'm fuckin' my money down ",
 
 ## Conclusion
 
-The results of the **Yeatinator** project demonstrated that while both LSTM and GPT-2 models can generate lyrics, **GPT-2 significantly outperformed the LSTM** in terms of creativity, coherence, and maintaining the stylistic characteristics of *Yeat*'s lyrics. This reinforces the idea that modern transformer-based models like GPT-2 are better suited for text generation tasks, particularly in creative domains such as music lyrics.
+The results of the **Yeatinator** project demonstrated that while both LSTM and GPT-2 models can generate lyrics, **GPT-2 significantly outperformed the LSTM** in terms of grammar and maintaining *Yeat*'s style.
